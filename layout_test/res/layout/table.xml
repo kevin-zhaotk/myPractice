@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+	android:stretchColumns="2"
+    >
+	<!-- row tag -->
+	<TableRow>
+		<TextView
+			android:text="111111"
+			android:background="#aa0000"
+			android:padding="3dip"
+		/>
+		<TextView
+			android:text="555555"
+			android:padding="3dip"
+			android:background="#00aa00"
+			android:gravity="center_horizontal"
+		/>
+		<TextView
+			android:gravity="right"
+			android:text="222222"
+			android:background="#0000aa"
+			android:padding="3dip"
+		/>
+		
+	</TableRow>
+	<TableRow>
+	<TextView
+		android:text="333333"
+		android:padding="3dip"
+		/> 
+	<TextView
+		android:gravity="right"
+		android:text="444444"
+		android:padding="3dip"
+		/> 
+	</TableRow>
+	
+</TableLayout>

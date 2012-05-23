@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">layoutActivity</string>
+	<string name="textView_hello">请选择性别</string>
+	<string name="radioBtn_fm_name">女</string>
+	<string name="radioBtn_male_name">男</string>
+	<string name="textView_hobby">个人爱好</string>
+	<string name="checkBox_sing">唱歌</string>
+	<string name="checkBox_dunce">跳舞</string>
+	<string name="checkBox_ball">篮球</string>
+</resources>

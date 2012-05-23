@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+	<!-- this is description !!! -->
+	<LinearLayout 
+		android:orientation="horizontal"
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:layout_weight="1"
+    		>
+		<TextView
+			android:layout_width="wrap_content"
+			android:layout_height="fill_parent"
+			android:background="#aa0000"
+			android:text="red"
+			android:layout_weight="1"
+		/>
+		<TextView
+			android:layout_width="wrap_content"
+			android:layout_height="fill_parent"
+			android:background="#00aa00"
+			android:text="blue"
+			android:layout_weight="1"
+		/>
+		<TextView
+			android:layout_width="wrap_content"
+			android:layout_height="fill_parent"
+			android:background="#0000aa"
+			android:text="green"
+			android:layout_weight="1"
+		/>
+		
+	</LinearLayout>
+	
+	<LinearLayout
+		android:orientation="vertical"
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:layout_weight="1"
+		>
+		<TextView
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content" 
+			android:gravity="center"
+			android:text="hello"
+			android:layout_weight="1"
+			/> 
+		<TextView
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content" 
+			android:gravity="center"
+			android:text="world"
+			android:layout_weight="1"
+			/> 
+		
+
+	</LinearLayout>
+    
+</LinearLayout>

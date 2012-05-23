@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">kongjianActivity</string>
+    <string name="calculate">计算</string>
+    <string name="symbol">乘以</string>
+
+    <string name="result">结果</string>
+    <string name="backButton">确定</string>
+</resources>
